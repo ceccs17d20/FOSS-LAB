@@ -1,0 +1,14 @@
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ sudo apt install nginx
+[sudo] password for clab1: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+nginx is already the newest version (1.10.3-0ubuntu0.16.04.3).
+0 upgraded, 0 newly installed, 0 to remove and 466 not upgraded.
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ sudo gedit /etc/nginx/sites-enabled/default 
+
+** (gedit:7112): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ sudo gedit /var/www/html/index.nginx-debian.html 
+
+(gedit:7147): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
